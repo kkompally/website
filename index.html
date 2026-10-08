@@ -8,11 +8,12 @@
   <meta property="og:title" content="Krishna Kompally — Experimental Fluid Dynamics" />
   <meta property="og:description" content="Ph.D. candidate, Arizona State University. Controlling boundary-layer separation with engineered surface textures." />
   <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/research-riblets.png" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌊</text></svg>" />
 </head>
 <body>
 
@@ -21,6 +22,7 @@
     <div class="nav-links">
       <a href="#about">About</a>
       <a href="#research">Research</a>
+      <a href="#toolkit">Toolkit</a>
       <a href="#publications">Publications</a>
       <a href="#experience">Experience</a>
       <a href="#contact">Contact</a>
@@ -31,22 +33,20 @@
     </button>
   </nav>
 
-  <header class="hero" id="top">
+  <header class="hero hero-dark" id="top">
+    <div class="hero-bg" style="background-image:url('images/hero-bg.jpg')"></div>
     <div class="hero-inner">
       <div class="hero-photo">
-        <!-- TODO: add your portrait as portrait.jpg in the repo root; it will appear automatically -->
-        <img src="portrait.jpg" alt="Krishna Kompally" onerror="this.remove()" />
+        <img src="images/portrait.jpg" alt="Krishna Kompally" onerror="this.remove()" />
         <span class="hero-initials">KK</span>
       </div>
       <p class="hero-kicker">// Experimental Fluid Dynamics</p>
       <h1>Krishna Kompally</h1>
       <p class="hero-role">Ph.D. Candidate, Aerospace Engineering</p>
-      <p class="hero-affil">CMAT Lab · Ira A. Fulton Schools of Engineering<br />Arizona State University</p>
+      <p class="hero-affil">Complex Mixing and Advanced Turbulence (CMAT) Laboratory<br />Ira A. Fulton Schools of Engineering, Arizona State University</p>
       <div class="hero-links">
-        <!-- TODO: replace # with your real links -->
-        <a href="mailto:YOUR_EMAIL@asu.edu">Email</a>
-        <a href="#" target="_blank" rel="noopener">Google Scholar</a>
-        <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:krishnakompally7@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/krishna-kompally" target="_blank" rel="noopener">LinkedIn</a>
         <a href="cv.pdf" download>CV ↓</a>
       </div>
     </div>
@@ -60,42 +60,46 @@
       <div class="about-grid">
         <div class="about-bio">
           <p>
-            I'm an experimental fluid dynamicist working on <strong>turbulent boundary-layer
-            separation and its control</strong> through engineered surface conditions. My dissertation
-            uses directional riblet textures to impose high- and low-momentum pathways in the
-            near-wall flow — showing that small surface modifications can drive outsized changes
-            in separation behavior.
+            I'm an experimental fluid dynamicist (Ph.D. expected January 2027) specializing in the
+            development and application of <strong>advanced optical diagnostics for turbulent
+            flows</strong>. My dissertation — <em>"Geometry-Induced Three-Dimensional Separation of
+            Turbulent Boundary Layers over Directional Riblet Surfaces"</em> — uses directional
+            riblet textures to impose high- and low-momentum pathways in the near-wall flow, showing
+            that small surface modifications can drive outsized changes in separation behavior.
           </p>
           <p>
-            My toolkit is <strong>optical diagnostics at scale</strong>: planar and stereoscopic PIV,
-            high-speed PIV at 1&nbsp;kHz, Shake-the-Box volumetric particle tracking at 7&nbsp;kHz and
-            above, and combined PIV/PLIF on particle-laden jets. I design and run full wind-tunnel
-            campaigns — model integration, instrumentation, acquisition, and analysis.
+            With 5+ years designing and executing multi-campaign experiments in air and water
+            facilities at high Reynolds numbers, my toolkit spans planar, high-speed (1&nbsp;kHz),
+            and stereoscopic PIV; volumetric Shake-the-Box Lagrangian particle tracking
+            (7.3&nbsp;kHz); and simultaneous PIV/PLIF of scalar mixing in particle-laden turbulent
+            jets — delivering validation-grade datasets that anchor computational and
+            reduced-order models.
           </p>
           <div class="interests">
-            <span class="chip">Boundary layers</span>
-            <span class="chip">Flow separation &amp; control</span>
-            <span class="chip">Surface textures &amp; riblets</span>
-            <span class="chip">PIV / STB diagnostics</span>
-            <span class="chip">Multiphase turbulent flows</span>
+            <span class="chip">Turbulent boundary layers &amp; separation</span>
+            <span class="chip">Jets, shear layers &amp; entrainment</span>
+            <span class="chip">Particle-laden multiphase turbulence</span>
+            <span class="chip">Scalar transport &amp; mixing</span>
+            <span class="chip">PIV / PLIF / STB diagnostics</span>
+            <span class="chip">Wind-energy aerodynamics</span>
           </div>
         </div>
         <div class="about-side">
           <div class="stats">
             <div class="stat"><span class="stat-num">5+</span><span class="stat-label">years of research</span></div>
-            <div class="stat"><span class="stat-num">7 kHz+</span><span class="stat-label">PIV acquisition</span></div>
+            <div class="stat"><span class="stat-num">7.3 kHz</span><span class="stat-label">STB tracking</span></div>
             <div class="stat"><span class="stat-num">4</span><span class="stat-label">publications &amp; talks</span></div>
           </div>
           <div class="edu-card">
             <h3>Education</h3>
             <div class="edu-item">
               <p class="edu-degree">Ph.D., Aerospace Engineering <span class="edu-when">· expected Jan 2027</span></p>
-              <p class="edu-school">Arizona State University</p>
+              <p class="edu-school">Arizona State University, Tempe, AZ</p>
               <p class="edu-note">Advisor: Prof. Gokul Pathikonda · GPA 3.65/4.00</p>
             </div>
             <div class="edu-item">
-              <p class="edu-degree">B.E., Mechanical Engineering <span class="edu-when">· 2020</span></p>
-              <p class="edu-school">SASTRA Deemed University, India</p>
+              <p class="edu-degree">B.E., Mechanical Engineering <span class="edu-when">· May 2020</span></p>
+              <p class="edu-school">SASTRA Deemed University, Tamil Nadu, India</p>
             </div>
           </div>
         </div>
@@ -108,31 +112,76 @@
       <h2>Research</h2>
       <div class="cards">
         <article class="card">
-          <p class="card-kicker">Dissertation core</p>
-          <h3>Geometry-induced 3D separation over directional riblets</h3>
-          <p>Converging–diverging riblets over a backward-facing hump create spanwise-periodic
-             high- and low-momentum pathways. PIV shows separation-region turbulence differs by up
-             to <strong>30%</strong> between pathways — while bulk boundary-layer properties change
-             by only a few percent.</p>
-          <div class="tags"><span>PIV</span><span>Separation control</span><span>Surface textures</span></div>
+          <div class="card-img"><img src="images/research-riblets.jpg" alt="Directional riblets modulating boundary-layer separation" loading="lazy" /></div>
+          <div class="card-body">
+            <p class="card-kicker">Dissertation core</p>
+            <h3>Geometry-induced 3D separation over directional riblets</h3>
+            <p>Converging–diverging riblets over a backward-facing ramp create spanwise-periodic
+               high- and low-momentum pathways. Multi-campaign planar and stereoscopic PIV shows
+               separation-region turbulence differs by up to <strong>30%</strong> between pathways —
+               delayed separation and earlier reattachment in HMPs — while bulk boundary-layer
+               properties change by only a few percent.</p>
+            <div class="tags"><span>PIV</span><span>Separation control</span><span>Riblets</span></div>
+          </div>
         </article>
         <article class="card">
-          <p class="card-kicker">Multiphase flows</p>
-          <h3>Scalar mixing in particle-laden turbulent jets</h3>
-          <p>Combined PIV/PLIF measurements of how inertial particles modulate entrainment and
-             scalar mixing in turbulent jets — linking particle inertia to large-scale
-             transport.</p>
-          <div class="tags"><span>PIV/PLIF</span><span>Particle-laden flow</span><span>Turbulent mixing</span></div>
+          <div class="card-img"><img src="images/research-jet.jpg" alt="Laser-visualized particle-laden turbulent jet" loading="lazy" /></div>
+          <div class="card-body">
+            <p class="card-kicker">Multiphase flows</p>
+            <h3>Scalar mixing in particle-laden turbulent jets</h3>
+            <p>Simultaneous PIV/PLIF on particle-laden axisymmetric jets in water: how highly
+               inertial particles (tungsten carbide, 200&nbsp;µm, 1–5% mass loading) modulate scalar
+               concentration fields and dissipation in high-Schmidt-number, variable-density mixing.</p>
+            <div class="tags"><span>PIV/PLIF</span><span>Particle-laden flow</span><span>Mixing</span></div>
+          </div>
         </article>
         <article class="card">
-          <p class="card-kicker">Methods</p>
-          <h3>High-speed &amp; volumetric diagnostics at scale</h3>
-          <p>Time-resolved measurements with time-lag correlations tying upstream boundary-layer
-             content to separation dynamics; full 3D Shake-the-Box tracking across the ramp for
-             volumetric strain and stress fields.</p>
-          <div class="tags"><span>High-speed PIV</span><span>Shake-the-Box</span><span>3D PTV</span></div>
+          <div class="card-img"><img src="images/research-stb.jpg" alt="Volumetric Shake-the-Box particle tracks" loading="lazy" /></div>
+          <div class="card-body">
+            <p class="card-kicker">Methods</p>
+            <h3>High-speed &amp; volumetric diagnostics at scale</h3>
+            <p>Time-resolved planar PIV (1&nbsp;kHz) with time-lag correlations tying upstream
+               boundary-layer content to separation dynamics; volumetric STB Lagrangian tracking at
+               7.3&nbsp;kHz across overlapping volumes — 10,000+ fields per condition with automated
+               pipelines cutting analysis turnaround 10×.</p>
+            <div class="tags"><span>High-speed PIV</span><span>Shake-the-Box</span><span>3D PTV</span></div>
+          </div>
         </article>
       </div>
+    </section>
+
+    <!-- TOOLKIT -->
+    <section id="toolkit" class="section reveal">
+      <p class="section-kicker">// Capabilities</p>
+      <h2>Experimental Toolkit</h2>
+      <div class="toolkit-grid">
+        <div class="toolkit-col">
+          <h3>Optical diagnostics &amp; facilities</h3>
+          <ul>
+            <li>PIV — planar (air + water), time-resolved high-speed (1&nbsp;kHz), stereoscopic, tomographic (MART)</li>
+            <li>Volumetric Shake-the-Box STB Lagrangian tracking (7.3&nbsp;kHz)</li>
+            <li>Simultaneous PIV/PLIF on particle-laden turbulent jets</li>
+            <li>LDA &amp; HWA — principles, setup, calibration, signal processing</li>
+            <li>Pressure/temperature transducers, scanners, Schlieren, IR thermography</li>
+            <li>Open-loop low-turbulence wind tunnel · water jet facility · scale-model testing</li>
+            <li>LaVision DaVis end-to-end; full experiment ownership</li>
+          </ul>
+        </div>
+        <div class="toolkit-col">
+          <h3>Computation &amp; data</h3>
+          <ul>
+            <li>MATLAB (primary) — large-scale PIV/PLIF/STB post-processing pipelines</li>
+            <li>Built a 2D incompressible Navier–Stokes solver from scratch (fractional-step, WENO-5, multigrid)</li>
+            <li>ANSYS Fluent RANS (k-ε, k-ω SST, RSTM) — mesh sensitivity &amp; model benchmarking vs. experiment</li>
+            <li>Python — statistics, uncertainty quantification, 10,000+-field datasets</li>
+            <li>SolidWorks, CREO, GAMBIT</li>
+          </ul>
+        </div>
+      </div>
+      <figure class="pipeline-fig">
+        <img src="images/pipeline.jpg" alt="PIV measurement pipeline: camera to particle images to vector fields" loading="lazy" />
+        <figcaption>From photons to physics — the PIV pipeline: acquisition, particle images, processing, velocity fields.</figcaption>
+      </figure>
     </section>
 
     <!-- PUBLICATIONS -->
@@ -142,7 +191,7 @@
       <ol class="pubs">
         <li class="pub">
           <p class="pub-title">Geometry-Induced Separation of a Boundary Layer Over Directional Riblets</p>
-          <p class="pub-meta">K. Kompally, G. Pathikonda · AIAA SciTech Forum 2025</p>
+          <p class="pub-meta">K. Kompally, G. Pathikonda · AIAA SciTech Forum, Jan 2025 · <span class="pub-flag">First author</span></p>
           <p class="pub-links">
             <a href="https://doi.org/10.2514/6.2025-2587" target="_blank" rel="noopener">DOI: 10.2514/6.2025-2587</a>
             <button class="cite-btn" data-bibtex='@inproceedings{kompally2025geometry,
@@ -155,19 +204,19 @@
           </p>
         </li>
         <li class="pub">
-          <p class="pub-title">Directional riblets and three-dimensional boundary-layer separation</p>
-          <p class="pub-meta">K. Kompally · APS Division of Fluid Dynamics 2025 · Talk</p>
+          <p class="pub-title">Spatio-temporal characterization of riblets-induced separation three-dimensionality on a curved surface</p>
+          <p class="pub-meta">K. Kompally, G. Pathikonda · APS Division of Fluid Dynamics, Nov 2025 · <span class="pub-flag">First author</span></p>
         </li>
         <li class="pub">
-          <p class="pub-title">[Sweat-dynamics study — co-authored]</p>
-          <p class="pub-meta">iScience, 2024</p>
+          <p class="pub-title">Influence of inertial particles on the evolution of scalar flow fields in a high-Sc turbulent jet</p>
+          <p class="pub-meta">K. Kompally · APS Division of Fluid Dynamics, Nov 2022 · <span class="pub-flag">Oral presentation</span></p>
+        </li>
+        <li class="pub">
+          <p class="pub-title">Simultaneous imaging of multi-pore sweat dynamics and evaporation rate measurement using wind tunnel ventilated capsule with infrared window</p>
+          <p class="pub-meta">K. Sadeghi, A. K. Jaiswal, C. T. Jose, R. Remesh, V. K. Nanani, K. Kompally, et al. · iScience (Cell Press), Jun 2024 · <span class="pub-flag">Co-author</span></p>
           <p class="pub-links">
             <a href="https://doi.org/10.1016/j.isci.2024.110304" target="_blank" rel="noopener">DOI: 10.1016/j.isci.2024.110304</a>
           </p>
-        </li>
-        <li class="pub">
-          <p class="pub-title">Inertial particles in turbulent jets</p>
-          <p class="pub-meta">K. Kompally · APS Division of Fluid Dynamics 2022 · Talk</p>
         </li>
       </ol>
       <p class="pubs-note">Full PDFs available on request.</p>
@@ -180,19 +229,37 @@
       <div class="timeline">
         <div class="tl-item">
           <span class="tl-when">May 2021 – Present</span>
-          <h3>Graduate Research Associate</h3>
-          <p>Arizona State University · Experimental boundary-layer separation &amp; optical diagnostics</p>
+          <h3>Graduate Research Associate (Doctoral Researcher)</h3>
+          <p class="tl-org">Complex Mixing and Advanced Turbulence (CMAT) Lab, Arizona State University, Tempe, AZ</p>
+          <ul class="tl-bullets">
+            <li>Dissertation: multi-campaign planar/stereoscopic PIV of turbulent boundary-layer separation over a backward-facing ramp with converging–diverging riblets; Re-dependence of 3D separation topology.</li>
+            <li>Simultaneous PIV/PLIF on particle-laden turbulent jets in water (tungsten carbide, 200&nbsp;µm).</li>
+            <li>PIV validation experiments for a computational droplet-evaporation study (Rykaczewski Lab) → iScience 2024.</li>
+            <li>Benchmarked RANS models (k-ε, k-ω SST, RSTM; ANSYS Fluent) against experimental separated-flow data.</li>
+          </ul>
         </div>
         <div class="tl-item">
           <span class="tl-when">Aug 2023 – Dec 2024</span>
           <h3>Graduate Teaching Assistant</h3>
-          <p>Arizona State University</p>
+          <p class="tl-org">Arizona State University, Tempe, AZ</p>
+          <ul class="tl-bullets">
+            <li>Head TA, Introduction to Fluid Mechanics (4 sections, 120+ students): designed homework/exam problems, led problem-solving sessions.</li>
+            <li>Lab instructor, Experimental Mechanical Engineering: instrumentation, pressure/temperature measurement, calibration, uncertainty analysis.</li>
+          </ul>
         </div>
         <div class="tl-item">
           <span class="tl-when">2016 – May 2020</span>
-          <h3>B.E. Researcher</h3>
-          <p>SASTRA Deemed University, India · Mechanical Engineering</p>
+          <h3>B.E. Researcher — Mechanical Engineering</h3>
+          <p class="tl-org">SASTRA Deemed University, Tamil Nadu, India</p>
+          <ul class="tl-bullets">
+            <li>Scale-model wind-tunnel pressure measurements for semi-trailer aerodynamic drag estimation.</li>
+            <li>Panel-method simulation of 2D NACA 2412 aerodynamics (UPC Barcelona, 2020); validated against XFoil.</li>
+          </ul>
         </div>
+      </div>
+      <div class="affil-row">
+        <span class="chip">AIAA — Student Member</span>
+        <span class="chip">APS Division of Fluid Dynamics — Member</span>
       </div>
     </section>
 
@@ -201,20 +268,25 @@
       <p class="section-kicker">// Get in touch</p>
       <h2>Contact</h2>
       <div class="contact-grid">
-        <!-- TODO: replace placeholders with real details -->
-        <a class="contact-card" href="mailto:YOUR_EMAIL@asu.edu">
-          <span class="contact-label">Email</span><span class="contact-value">YOUR_EMAIL@asu.edu</span>
+        <a class="contact-card" href="mailto:krishnakompally7@gmail.com">
+          <span class="contact-label">Email</span><span class="contact-value">krishnakompally7@gmail.com</span>
+        </a>
+        <a class="contact-card" href="tel:+16027569063">
+          <span class="contact-label">Phone</span><span class="contact-value">+1 (602) 756-9063</span>
+        </a>
+        <a class="contact-card" href="https://www.linkedin.com/in/krishna-kompally" target="_blank" rel="noopener">
+          <span class="contact-label">LinkedIn</span><span class="contact-value">krishna-kompally</span>
         </a>
         <div class="contact-card">
-          <span class="contact-label">Phone</span><span class="contact-value">+1 (___) ___-____</span>
-        </div>
-        <div class="contact-card">
-          <span class="contact-label">Office</span><span class="contact-value">ASU, Tempe AZ — details on request</span>
+          <span class="contact-label">Location</span><span class="contact-value">Tempe, AZ, USA</span>
         </div>
       </div>
+      <figure class="map-fig">
+        <img src="images/map.jpg" alt="Map — Tempe, Arizona" loading="lazy" />
+      </figure>
       <div class="hero-links" style="margin-top:1.5rem">
-        <a href="mailto:YOUR_EMAIL@asu.edu">Send an email</a>
-        <a href="#" target="_blank" rel="noopener">Connect on LinkedIn</a>
+        <a href="mailto:krishnakompally7@gmail.com">Send an email</a>
+        <a href="https://www.linkedin.com/in/krishna-kompally" target="_blank" rel="noopener">Connect on LinkedIn</a>
         <a href="cv.pdf" download>Download CV ↓</a>
       </div>
     </section>

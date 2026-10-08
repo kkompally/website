@@ -1,29 +1,29 @@
-# personal-website
+# krishnakompally.com
 
 Personal academic portfolio of **Krishna Kompally** — Ph.D. candidate in Experimental
 Fluid Dynamics, Arizona State University.
 
 Pure static site (HTML + CSS + JS). No build step, no trackers, no dependencies.
-Hosted with GitHub Pages.
+Live at **https://www.krishnakompally.com** via GitHub Pages (custom domain on Squarespace).
+
+## Layout
+
+- `index.html` — all content: hero, about, research, toolkit, publications, experience, contact
+- `styles.css` — theme (light/dark), layout, cards
+- `script.js` — theme toggle, reveal-on-scroll, cite-button clipboard
+- `images/` — portrait, research figures, diagrams, map
+- `cv.pdf` — downloadable CV
+- `favicon.svg` — "K" monogram favicon
 
 ## Preview locally
 
 ```bash
-cd /path/to/repo
 python3 -m http.server 8000
 # open http://localhost:8000
 ```
 
-## Still to fill in (marked `TODO` in index.html)
-
-- `portrait.jpg` — headshot for the hero section (drop the file in the repo root)
-- Email address (currently `YOUR_EMAIL@asu.edu`)
-- Phone number
-- Google Scholar and LinkedIn URLs (currently `#`)
-- `cv.pdf` — CV download (drop the file in the repo root)
-- Full title of the iScience 2024 co-authored paper
-
 ## Deploy
 
-Settings → Pages → Deploy from branch → `main` / root. The site goes live at
-`https://<username>.github.io/website/`.
+Pushes to `main` auto-deploy via GitHub Pages ("Deploy from a branch").
+Custom domain `www.krishnakompally.com` is set in Settings → Pages;
+DNS (Squarespace): apex A records → GitHub Pages IPs, www CNAME → kkompally.github.io.
